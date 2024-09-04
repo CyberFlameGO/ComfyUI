@@ -82,7 +82,7 @@ jobs:
         pull-requests: "read"
     runs-on: windows-latest
     steps:
-        - uses: actions/download-artifact@v3
+        - uses: actions/download-artifact@v4.1.7
           with:
             name: cu118_python_deps
         - shell: bash
